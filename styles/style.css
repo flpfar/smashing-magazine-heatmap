@@ -1,0 +1,43 @@
+header {
+    height: 6.2375rem;
+    background-color: red;
+}
+
+main {
+
+}
+
+.main-section {
+    height: 300px;
+    background-color: aqua;
+}
+
+.membership-section {
+    height: 300px;
+    background-color: blue;
+}
+
+.latest-posts-section {
+    height: 300px;
+    background-color: black;
+}
+
+.handbook-section {
+    height: 300px;
+    background-color: yellow;
+}
+
+.community-links-section {
+    height: 300px;
+    background-color: green;
+}
+
+.curated-posts-section {
+    height: 300px;
+    background-color: red;
+}
+
+footer {
+    height: 300px;
+    background-color: aqua;
+}
