@@ -46,7 +46,15 @@ main {
 
 .main-section {
     height: 300px;
-    /* background-color: aqua;
+    background-color: aqua;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 2;
+    /* grid-template-rows: 2; */
+}
+
+.main-section > div {
+    background-color: red;
 }
 
 .membership-section {
