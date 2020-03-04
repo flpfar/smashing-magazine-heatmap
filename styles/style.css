@@ -1,5 +1,6 @@
 body {
   background-color: #ddd;
+  color: #fff;
 }
 
 /* GRAY LEVELS SETTING */
@@ -66,7 +67,7 @@ nav ul li {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr 0.7fr;
-  font-family: "Mija", Arial, Helvetica, sans-serif;
+  font-family: 'Raleway', Arial, sans-serif;
 }
 
 .main-section h1 {
@@ -210,8 +211,11 @@ nav ul li {
 .community-links-section {
   height: 180vh;
   display: grid;
-  grid-gap: 5px;
   grid-template-columns: 1fr 1fr;
+}
+
+.ghost {
+  display: none;
 }
 
 .week-person {
@@ -239,6 +243,7 @@ nav ul li {
   display: flex;
   align-items: flex-start;
   justify-content: center;
+  border: 1px solid #fff;
 }
 
 .community-item-image {
@@ -269,7 +274,6 @@ nav ul li {
 /* FEATURED BOOKS SECTION */
 
 .featured-book-section {
-  background-color: #727;
   height: 50vh;
   color: #fff;
   display: flex;
@@ -281,33 +285,28 @@ nav ul li {
   width: 70%;
   height: 90%;
   padding: 20px;
-  background-color: orange;
 }
 
 .featured-book-content h1 {
   height: 20%;
   width: 35%;
-  background-color: #fff;
 }
 
 .featured-book-content p {
   height: 30%;
   width: 90%;
   margin: 20px 0;
-  background-color: #fff;
 }
 
 .featured-book-content div {
   height: 100px;
   width: 250px;
   border-radius: 20px;
-  background-color: #555;
 }
 
 .featured-book-image {
   width: 15%;
   height: 80%;
-  background-color: #000;
   transform: rotate(-15deg);
 }
 
@@ -315,37 +314,31 @@ nav ul li {
 
 .curated-posts-section {
   height: 200vh;
-  background-color: blue;
 }
 
 .curated-posts {
-  background-color: chartreuse;
   height: 100vh;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 5px;
   padding: 30px;
 }
 
 .curated-post-content {
-  background-color: #444;
   padding: 30px;
+  border: 1px solid #fff;
 }
 
 .curated-post-content h2 {
-  background-color: #fff;
   height: 12%;
   margin-bottom: 30px;
 }
 
 .curated-post-content div {
-  background-color: #fff;
   height: 60%;
 }
 
 .newsletter-container {
   height: 100vh;
-  background-color: red;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -356,64 +349,57 @@ nav ul li {
 .newsletter-container h1 {
   height: 60px;
   width: 35%;
-  background-color: #fff;
 }
 
 .newsletter-container p {
   height: 70px;
   width: 45%;
-  background-color: #eee;
 }
 
 .newsletter-container div {
   width: 476px;
   height: 450px;
-  background-color: #fff;
 }
 
 .newsletter-container button {
   width: 476px;
   height: 90px;
   border-radius: 20px;
-  background-color: #555;
+  border: 1px solid #fff;
 }
 
 /* FOOTER */
 
 footer {
   height: 80vh;
-  background-color: #000;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   padding: 30px;
   position: relative;
+  margin-top: 100px;
 }
 
 .footer-links {
   width: 90%;
   height: 30%;
-  background-color: #fff;
 }
 
 .footer-paragraph {
   width: 30%;
   height: 25%;
-  background-color: red;
 }
 
 .footer-secondary-links {
   width: 35%;
   height: 15%;
-  background-color: blue;
 }
 
 .footer-image {
   position: absolute;
   left: 200px;
   bottom: 40px;
-  background-color: yellow;
   width: 180px;
   height: 220px;
 }
