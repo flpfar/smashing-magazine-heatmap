@@ -127,7 +127,57 @@ nav ul li {
 }
 
 .latest-posts-section {
-  height: 300px;
+  height: 250vh;
+  background-color: #999;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 5px;
+  color: aliceblue;
+}
+
+.latest-posts-section div {
+  background-color: #555;
+  padding: 30px;
+}
+
+.latest-posts-section .smashing-content {
+  grid-column: span 2;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.latest-posts-section div h3 {
+  text-decoration: underline;
+  font-size: 28px;
+  margin-bottom: 30px;
+  background-color: #333;
+}
+
+.latest-posts-section div p {
+  font-size: 18px;
+}
+
+.smashing-content > div {
+  width: 240px;
+  height: 270px;
+  background-color: #333;
+}
+
+.smashing-content > h1 {
+  background-color: #999;
+  height: 40px;
+  width: 500px;
+}
+
+.smashing-content > button {
+  height: 100px;
+  width: 250px;
+  border-radius: 20px;
+  background-color: #555;
 }
 
 .handbook-section {
