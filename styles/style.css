@@ -1,4 +1,9 @@
+body {
+  background-color: #ddd;
+}
+
 /* GRAY LEVELS SETTING */
+
 .level1 {
   background-color: #222;
 }
@@ -23,7 +28,6 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 1% 2%;
-  background-color: #333;
 }
 
 header > * {
@@ -60,7 +64,6 @@ nav ul li {
 .main-section {
   height: 200vh;
   display: grid;
-  grid-gap: 1px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr 0.7fr;
   font-family: "Mija", Arial, Helvetica, sans-serif;
@@ -75,8 +78,8 @@ nav ul li {
   position: absolute;
   left: 0;
   right: 0;
+  color: #fff;
   margin: 20px auto;
-  background-color: #fff;
   font-size: 32px;
 }
 
@@ -84,9 +87,9 @@ nav ul li {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: gray;
   padding: 50px;
   color: #fff;
+  border: 1px solid #fff;
 }
 
 .article-author {
@@ -95,7 +98,6 @@ nav ul li {
 }
 
 .article-author > div {
-  background-color: #555;
   width: 75px;
   height: 75px;
   transform: rotate(-10deg);
@@ -105,7 +107,6 @@ nav ul li {
 .article-author > p {
   margin-left: 20px;
   margin-top: -30px;
-  background-color: #777;
   width: 300px;
   height: 20px;
 }
@@ -114,35 +115,30 @@ nav ul li {
   margin: 40px 0;
   font-weight: 700;
   font-size: 36px;
-  background-color: #333;
 }
 
 .tags {
   width: 80%;
   height: 20px;
-  background-color: #999;
 }
 
 /* LATEST POSTS SECTION */
 
 .latest-posts-section {
   height: 250vh;
-  background-color: #999;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-gap: 5px;
-  color: aliceblue;
+  color: #fff;
 }
 
 .latest-posts-section div {
-  background-color: #555;
   padding: 30px;
+  border: 1px solid #fff;
 }
 
 .latest-posts-section .smashing-content {
   grid-column: span 2;
-  background-color: red;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -153,7 +149,6 @@ nav ul li {
   text-decoration: underline;
   font-size: 28px;
   margin-bottom: 30px;
-  background-color: #333;
 }
 
 .latest-posts-item p {
@@ -163,20 +158,20 @@ nav ul li {
 .smashing-content > div {
   width: 240px;
   height: 270px;
-  background-color: #333;
+  border: 1px solid #fff;
 }
 
 .smashing-content > h1 {
-  background-color: #999;
   height: 40px;
   width: 500px;
+  border: 1px solid #fff;
 }
 
 .smashing-content > button {
   height: 100px;
   width: 250px;
   border-radius: 20px;
-  background-color: #555;
+  border: 1px solid #fff;
 }
 
 /* HANDBOOK SECTION */
@@ -188,45 +183,38 @@ nav ul li {
   justify-content: space-around;
   align-items: center;
   padding: 30px;
-  background-color: yellow;
 }
 
 .handbook-section > h1 {
   width: 600px;
   height: 80px;
-  background-color: #777;
 }
 
 .handbook-section > p {
   width: 920px;
   height: 120px;
-  background-color: #555;
 }
 
 .handbook-section > button {
   width: 400px;
   height: 100px;
-  background-color: #888;
 }
 
 .handbook-section > div {
   width: 920px;
   height: 500px;
-  background-color: #666;
 }
 
 /* COMMUNITY LINKS SECTION */
 
 .community-links-section {
   height: 180vh;
-  background-color: green;
   display: grid;
   grid-gap: 5px;
   grid-template-columns: 1fr 1fr;
 }
 
 .week-person {
-  background-color: blueviolet;
   grid-column: span 2;
   display: flex;
   justify-content: center;
@@ -234,7 +222,6 @@ nav ul li {
 }
 
 .week-person > div {
-  background-color: #555;
   width: 200px;
   height: 200px;
   transform: rotate(-10deg);
@@ -245,12 +232,10 @@ nav ul li {
   width: calc(90% - 200px);
   height: 170px;
   margin-left: 40px;
-  background-color: brown;
 }
 
 .community-item {
   padding: 50px;
-  background-color: aqua;
   display: flex;
   align-items: flex-start;
   justify-content: center;
