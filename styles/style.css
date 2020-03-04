@@ -1,3 +1,20 @@
+/* GRAY LEVELS SETTING */
+.level1 {
+  background-color: #222;
+}
+
+.level2 {
+  background-color: #555;
+}
+
+.level3 {
+  background-color: #888;
+}
+
+.level4 {
+  background-color: #bbb;
+}
+
 /* HEADER SECTION */
 
 header {
@@ -132,14 +149,14 @@ nav ul li {
   justify-content: space-around;
 }
 
-.latest-posts-section div h3 {
+.latest-posts-item h3 {
   text-decoration: underline;
   font-size: 28px;
   margin-bottom: 30px;
   background-color: #333;
 }
 
-.latest-posts-section div p {
+.latest-posts-item p {
   font-size: 18px;
 }
 
@@ -180,7 +197,7 @@ nav ul li {
   background-color: #777;
 }
 
-.handbook-section > p { 
+.handbook-section > p {
   width: 920px;
   height: 120px;
   background-color: #555;
@@ -239,7 +256,7 @@ nav ul li {
   justify-content: center;
 }
 
-.community-item > div:first-child {
+.community-item-image {
   background-color: #555;
   width: 75px;
   height: 75px;
@@ -263,6 +280,8 @@ nav ul li {
   width: 400px;
   height: 200px;
 }
+
+/* FEATURED BOOKS SECTION */
 
 .featured-book-section {
   background-color: #727;
@@ -307,6 +326,8 @@ nav ul li {
   transform: rotate(-15deg);
 }
 
+/* CURATED POSTS SECTION */
+
 .curated-posts-section {
   height: 200vh;
   background-color: blue;
@@ -337,6 +358,77 @@ nav ul li {
   height: 60%;
 }
 
+.newsletter-container {
+  height: 100vh;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+
+.newsletter-container h1 {
+  height: 60px;
+  width: 35%;
+  background-color: #fff;
+}
+
+.newsletter-container p {
+  height: 70px;
+  width: 45%;
+  background-color: #eee;
+}
+
+.newsletter-container div {
+  width: 476px;
+  height: 450px;
+  background-color: #fff;
+}
+
+.newsletter-container button {
+  width: 476px;
+  height: 90px;
+  border-radius: 20px;
+  background-color: #555;
+}
+
+/* FOOTER */
+
 footer {
-  height: 300px;
+  height: 80vh;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  position: relative;
+}
+
+.footer-links {
+  width: 90%;
+  height: 30%;
+  background-color: #fff;
+}
+
+.footer-paragraph {
+  width: 30%;
+  height: 25%;
+  background-color: red;
+}
+
+.footer-secondary-links {
+  width: 35%;
+  height: 15%;
+  background-color: blue;
+}
+
+.footer-image {
+  position: absolute;
+  left: 200px;
+  bottom: 40px;
+  background-color: yellow;
+  width: 180px;
+  height: 220px;
 }
