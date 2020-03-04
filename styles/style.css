@@ -106,25 +106,7 @@ nav ul li {
   background-color: #999;
 }
 
-/* MEMBERSHIP SECTION */
-
-.membership-section {
-  background-color: #eee;
-  height: 70vh;
-}
-
-.membership-section p {
-  width: 700px;
-  height: 50px;
-  background-color: #999;
-}
-
-.membership-section ul li {
-  width: 400px;
-  height: 30px;
-  background-color: #777;
-  margin: 10px 0 10px 30px;
-}
+/* LATEST POSTS SECTION */
 
 .latest-posts-section {
   height: 250vh;
@@ -180,12 +162,106 @@ nav ul li {
   background-color: #555;
 }
 
+/* HANDBOOK SECTION */
+
 .handbook-section {
-  height: 300px;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  background-color: yellow;
 }
 
+.handbook-section > h1 {
+  width: 600px;
+  height: 80px;
+  background-color: #777;
+}
+
+.handbook-section > p { 
+  width: 920px;
+  height: 120px;
+  background-color: #555;
+}
+
+.handbook-section > button {
+  width: 400px;
+  height: 100px;
+  background-color: #888;
+}
+
+.handbook-section > div {
+  width: 920px;
+  height: 500px;
+  background-color: #666;
+}
+
+/* COMMUNITY LINKS SECTION */
+
 .community-links-section {
-  height: 300px;
+  height: 180vh;
+  background-color: green;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.week-person {
+  background-color: blueviolet;
+  grid-column: span 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.week-person > div {
+  background-color: #555;
+  width: 200px;
+  height: 200px;
+  transform: rotate(-10deg);
+  margin-bottom: 10px;
+}
+
+.week-person > p {
+  width: calc(90% - 200px);
+  height: 170px;
+  margin-left: 40px;
+  background-color: brown;
+}
+
+.community-item {
+  padding: 50px;
+  background-color: aqua;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.community-item > div:first-child {
+  background-color: #555;
+  width: 75px;
+  height: 75px;
+  transform: rotate(-10deg);
+  margin-bottom: 10px;
+}
+
+.community-item-content {
+  margin-left: 20px;
+}
+
+.community-item-content > h3 {
+  background-color: #888;
+  width: 220px;
+  height: 20px;
+  margin-bottom: 20px;
+}
+
+.community-item-content > p {
+  background-color: #ccc;
+  width: 400px;
+  height: 200px;
 }
 
 .curated-posts-section {
